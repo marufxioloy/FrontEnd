@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pseudo Element</title>
+    <style>
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      h1 {
+        color: greenyellow;
+      }
+      /* mengubah elemen p pertama */
+      p:first-of-type {
+        color: red;
+      }
+      /* mengubah elemen p terakhir */
+      p:last-of-type {
+        color: blue;
+      }
+      /* mengubah element pertama dari element li */
+      li:first-child {
+        color: red;
+      }
+      /* mengubah element terakhir dari element li */
+      li:last-child {
+        color: blue;
+      }
+      /* mengubah element kelipatan dua dari element li */
+      li:nth-child(2n) a {
+        color: green;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Pseudo Element</h1>
+    <ol>
+      <li><a href="#">pertama</a></li>
+      <li><a href="#">kedua</a></li>
+      <li><a href="#">ketiga</a></li>
+      <li><a href="#">keempat</a></li>
+      <li><a href="#">kelima</a></li>
+    </ol>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, rem. Impedit
+      similique dolores voluptate quisquam harum molestias sit alias mollitia
+      sint iusto blanditiis magnam suscipit officiis sunt, assumenda commodi ab.
+    </p>
+    <p>
+      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nobis aspernatur
+      voluptatum maiores omnis placeat, sed laudantium consectetur mollitia ad!
+      Quasi iusto, voluptatem odio eum perferendis fugiat accusantium impedit
+      autem! Nemo.
+    </p>
+    <p>
+      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laboriosam
+      corporis officia consequuntur, culpa ipsum dolore reprehenderit doloribus
+      in quis ipsam veniam blanditiis. Beatae aliquid cumque animi a ipsa
+      dolorem? Eius!
+    </p>
+  </body>
+</html>
